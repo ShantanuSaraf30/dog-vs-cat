@@ -6,7 +6,7 @@ from streamlit_webrtc import webrtc_streamer, VideoTransformerBase
 import av
 
 # Load the trained model
-cnn = tf.keras.models.load_model('cats_dogs_model_new.keras')
+cnn = tf.keras.models.load_model('a.keras')
 
 # Define a class for processing video frames
 class VideoProcessor(VideoTransformerBase):
