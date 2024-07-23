@@ -1,6 +1,6 @@
-streamlit
-streamlit-webrtc
-tensorflow
-Pillow
-av
-numpy
+streamlit==1.11.0
+streamlit-webrtc==0.37.0
+tensorflow==2.10.0
+Pillow==9.2.0
+av==10.0.0
+numpy==1.23.1
