@@ -5,8 +5,10 @@ from PIL import Image
 from streamlit_webrtc import webrtc_streamer, VideoTransformerBase
 import av
 
+
 # Load the trained model
-cnn = tf.keras.models.load_model('cats_dogs_model.keras')
+cnn = tf.keras.models.load_model(r'C:\Users\parth sawant\Desktop\gemini compi\cats_dogs_model.keras')
+
 
 # Define a class for processing video frames
 class VideoProcessor(VideoTransformerBase):
