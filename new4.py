@@ -26,7 +26,7 @@ class VideoProcessor(VideoTransformerBase):
         result = cnn.predict(img_array)
         self.result = 'Dog' if result[0][0] > 0.5 else 'Cat'
         
-        return frame.to_ndarray(format="bgr24")
+        return img_array[0]
 
 st.title("Dog vs Cat Detection")
 st.write("Use the camera to capture an image and predict if it's a dog or a cat.")
