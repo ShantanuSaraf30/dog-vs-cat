@@ -1,4 +1,6 @@
 streamlit
+streamlit-webrtc
 tensorflow
-keras
-streamlit_webrtc
+Pillow
+av
+numpy
